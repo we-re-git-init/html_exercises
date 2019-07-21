@@ -1,0 +1,121 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.column-section {
+  width: 280px;
+  float: left;
+  height: 400px;
+  overflow: scroll;
+}
+
+#reflection {
+  clear: both;
+}
+
+
+header, #reflection, footer, .column-section {
+  padding: 10px;
+  margin: 10px;
+}
+
+
+footer a {
+  color: #060;
+}
+
+footer a:hover {
+  color: #090;
+}
+
+
+/* COLORS */
+
+body {
+  background-color: #444;
+}
+
+header {
+  background-color: #000;
+}
+
+header h1 {
+  color: #040;
+}
+
+#header-title {
+  color: #0b0;
+}
+
+.column-section {
+  background-color: #272822;
+}
+
+.column-section h2 {
+  color: white;
+}
+
+#what-is-pp p {
+  color: #B92659;
+}
+
+#why-do-pp p {
+  color: #6AC62E;
+}
+
+#how-to-pp p {
+  color: #66D9EF;
+}
+
+#reflection {
+  background-color: #121212;
+  color: #888;
+}
+
+footer {
+  background-color: #000;
+  color: #040;
+}
+
+
+/* TYPOGRAPHY */
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+
+header h1, footer {
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+header h1 {
+  font-size: 2.5em;
+  line-height: 1.4em;
+}
+
+.column-section h2 {
+  font-size: 7em;
+  margin: 0;
+  line-height: 1em;
+}
+
+/*media query*/
+
+@media (max-width: 960px) {
+  body {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 1.2;
+  }
+
+  .column-section {
+    float: none;
+    width: inherit;
+  }
+}
